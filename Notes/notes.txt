@@ -1,0 +1,66 @@
+                          //////////////////// Full Notes for the MERN_BLOG_APP////////////////////////
+
+
+
+////Creating the React folder
+
+1.So open the terminal for blog folder
+     Inside Terminal write command:- 
+     
+         npm create vite@latest.
+
+choose:- 
+     Project name:- client
+     framework: React
+     variant:- JavaScript+ SWC compiler.
+
+  Then it will create the react folder inside the blog website.
+
+Delete the unnecessary file in the folder write app.css, vite.svg, react.svg
+
+///////Downloading the dependecies
+
+2.Inside client folder
+       In terminal write:
+              npm i 
+to install all the dependecies like react and react-dom.
+
+//// Installing the tailwind css.
+
+3.Now we will download the tailwind css.
+
+   serach on google tailwind css with vite.
+
+   (Install tailwind css using vite.)
+   In termial client folder:- npm install tailwindcss @tailwindcss/vite
+
+   Replace:- 
+      import { defineConfig } from 'vite'
+      import react from '@vitejs/plugin-react-swc'
+      // https://vite.dev/config/
+       export default defineConfig({
+       plugins: [react()],
+      })
+             ||
+             ||
+
+       import { defineConfig } from 'vite'
+       import tailwindcss from '@tailwindcss/vite'
+       export default defineConfig({
+       plugins: [
+       tailwindcss(),
+      ],
+     })
+
+   
+    Inside the index.css folder
+          delete everything and write
+                
+               @import "tailwindcss";  
+
+   now we can use  [ npm run dev ]  to run our application
+
+
+////Development Part 
+
+Delete everything in app.jsx and replace with rfc(react function component)
