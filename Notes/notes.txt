@@ -1,6 +1,7 @@
                           //////////////////// Full Notes for the MERN_BLOG_APP////////////////////////
 
 
+//////////////////////////////Session 1//////////////////////////////////////////////////////////////////////
 
 ////Creating the React folder
 
@@ -64,3 +65,27 @@ to install all the dependecies like react and react-dom.
 ////Development Part 
 
 Delete everything in app.jsx and replace with rfc(react function component)
+
+
+4.Now intialise it as git folder
+           git init 
+           git add .
+           git commit -m "message"
+        
+    for pushing it on the github
+        
+        git remote add origin https://github.com/arpitp1234/Blog_november_2025.git
+        git branch -M main
+        git push -u origin main
+
+
+
+
+//////////////////////////////// Session 2/////////////////////////////////////////////////
+
+1.Create the pages in src folder which contain file like Aboout,Dashboard,Home,Projects,Signin,SignUp.
+
+2.Inside the client folder Install the react router dom by command
+               npm  i react-router-dom
+
+3.Within the App.jsx import BrowerRouter,Routes,Route
